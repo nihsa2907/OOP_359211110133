@@ -1,4 +1,4 @@
-package ooplab4;
+package ooplab3;
 
 public class TastNestedLoop {
     public static void main (String[] args){
