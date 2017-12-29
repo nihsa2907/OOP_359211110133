@@ -9,6 +9,9 @@ public class myStrToken {
         StringTokenizer mytoken = new StringTokenizer(msg);
         //counToken()
         System.out.println(mytoken.countTokens());
-
+        while (mytoken.hasMoreTokens()){
+            StringBuffer buffer = new StringBuffer (mytoken.nextToken());
+            System.out.print(buffer.reverse()+" ");
+        }//while
     }//main
 }//class
