@@ -37,7 +37,7 @@ public class Student {
                 '}';
     }
 
-    public String getId() {
+    public String getid() {
         return id;
     }
 
@@ -45,7 +45,7 @@ public class Student {
         this.id = id;
     }
 
-    public String getName() {
+    public String getname() {
         return name;
     }
 
@@ -53,19 +53,19 @@ public class Student {
         this.name = name;
     }
 
-    public String getPid() {
+    public String getpid() {
         return pid;
     }
 
-    public void setPid(String pid) {
+    public void setpid(String pid) {
         this.pid = pid;
     }
 
-    public String getAddress() {
+    public String getaddress() {
         return address;
     }
 
-    public void setAddress(String address) {
+    public void setaddress(String address) {
         this.address = address;
     }
 }//class
