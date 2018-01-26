@@ -66,5 +66,5 @@ public class Mid3_2 {
         else{
             return 1;
         }
-    }
-}
+    }//main
+}//class
